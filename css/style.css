@@ -19,7 +19,12 @@ ol{
     color: rgb(255, 183, 0);
 }
 
-
+ul{
+    color: rgb(255, 183, 0);
+}
+hr{
+    border-color: rgb(255, 183, 0);
+}
 
 a{
     color: aqua;
