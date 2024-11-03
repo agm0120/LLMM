@@ -27,7 +27,7 @@ hr{
 }
 
 a{
-    color: aqua;
+    color: black;
 }
 
 .contacto{
@@ -55,5 +55,54 @@ a{
     width: 90px;
     border-radius: 10px;
 }
+.paginaprincipal{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 183, 0);
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+}
+.cuestionario{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 183, 0);
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+}
 
+tr{
+    color: white;
+}
+
+td{
+    text-align: center;
+}
   
+#LLMM{
+    background-color: rgb(72, 93, 32)
+}
+
+#BBDD{
+    background-color: darkslateblue;
+}
+#Sostenibilidad{
+    background-color: darkseagreen;
+}
+#Digitalizacion{
+    background-color: darkmagenta;
+}
+#EEDD{
+    background-color: rgb(52, 60, 67);
+}
+#SI{
+    background-color: brown;
+}
+#Programacion{
+    background-color: rgb(98, 43, 22);
+}
+#IP{
+    background-color: rgb(14, 62, 23);
+}
+

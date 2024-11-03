@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-color: rgb(0, 0, 0);">
+    <div style="color:white">
+    <h1>Metodos de contacto</h1>
+    <h2>Numero de telefono: 698201515</h2>
+    <h2>Correo electronico: agm0120@alu.medac.es</h2>
+    <hr>
+    <h1>Formulario</h1>
+    <form action="http://localhost/proceso.php" method="post">
+        
+        
+        <fieldset>
+            <legend><b>Datos Personales</b></legend>
+            <br>
+            Nombre: <input type="text" name="nombre"> 
+            <br>
+            <br>
+            Apellidos: <input type="text" name="apellidos"> 
+            <br>
+            <br>
+            Edad: <input type="text" name="edad" maxlength="3" minlength="1" tabindex="">
+            <p style="color: white;">Genero: </p>
+            <p style="color: white;">
+                <input type="radio" name="sexo" value="h">Hombre
+                <input type="radio" name="sexo" value="m">Mujer
+            </p>
+        </fieldset>
+        
+        <hr>
+
+        <fieldset>
+            <legend><b>Contacto</b></legend>
+            <br>
+            Correo electronico: <input type="text" name="correo"> 
+            <br>
+            <br>
+            Código postal: <input type="text" name="codigopostal" maxlength="5" minlength="5" tabindex=""> 
+            <br>
+            <br>
+            Dirección: <input type="text" name="direccion">
+            <br>
+            <br>
+            <label for="Ciudad">Ciudad: </label>
+            <select name="Ciudad" id="Ciudad">
+            <option value="Jaén">Jaén</option>
+            <option value="Bailén">Bailén</option>
+            <option value="Linares">Linares</option>
+            <option value="Baños de la encina">Baños de la encina</option>
+            <option value="Castillolocubin">Castillos de locubin</option>
+            </select>
+            <br>
+            <br>
+            Contraseña: <input type="password" name="contraseña">
+            <br>
+            <br>
+
+        </fieldset>
+        
+        <hr>
+
+        <fieldset>
+            <legend><b>Datos de Interés</b></legend>
+            <p style="color: white;">Estado civil: </p>
+            <p style="color: white;">
+                <input type="radio" name="sexo" value="h">Casado/a
+                <input type="radio" name="sexo" value="m">Soltero/a
+            <br>
+            <br>
+            Hobbies:    
+            <br>
+            <input type="checkbox"> Fútbol </input>
+            <br>
+            <input type="checkbox"> Correr </input>
+            <br>
+            <input type="checkbox"> Jugar videojuegos </input>
+            <br>
+            
+        </fieldset>
+    <hr>
+        <fieldset>
+            <legend><b>Comentarios Adicionales</b></legend>
+            <br>
+            <textarea name="comentarios" id="comentarios" placeholder="Escribe aqui tus comentarios..." rows="5" cols="40"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetear">
+        </fieldset>
+
+    </form>
+   
+<hr>
+<div class=divnegro; style="text-align: center;">
+    <h4>Menu de interacción</h4>
+    <a href="contacto.html"> <button class=contacto>Contacto</button> </a>
+    
+    <a href="index.html"><button class="volver">Volver</button></a>
+    <a href="horario.html"><button class="volver">Horario</button></a>
+
+        <a href="https://medac.instructure.com" target="_blank"><button class=medacpagina>MEDAC</button> </a>
+
+    </div>
+
+    
+</body>
+</html>
